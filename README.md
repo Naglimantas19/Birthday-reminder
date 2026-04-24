@@ -6,3 +6,10 @@ Kursinis darbas: Birthday reminder
 2. Programos naudojimas  
 3. Analizė  
 4. Rezultatai ir išvados
+
+# 1. Įvadas
+## Kas yra ši programa?
+Tai Python programa, skirta priminti apie artėjančius gimtadienius.  
+Vartotojas gali pridėti, pašalinti gimtadienius, peržiūrėti artėjančius įvykius ir gauti priminimus.
+Programa palaiko kelis vartotojus.
+
