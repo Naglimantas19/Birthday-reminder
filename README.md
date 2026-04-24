@@ -18,3 +18,12 @@ Programa palaiko kelis vartotojus.
 Reikalavimai: Python 3.10 arba naujesnė versija.
 ```bash
 python main.py
+
+## Funkcionalumas
+
+- Pridėti gimtadienį  
+- Ištrinti gimtadienį  
+- Rodyti artėjančius gimtadienius  
+- Gauti priminimus  
+- Išsaugoti į failą  
+- Užkrauti iš failo  
