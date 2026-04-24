@@ -18,3 +18,11 @@ Programa palaiko kelis vartotojus.
 
 ```bash
 python main.py
+
+## Funkcionalumas
+Pridėti gimtadienį
+Ištrinti gimtadienį
+Rodyti artėjančius gimtadienius
+Gauti priminimus
+Išsaugoti į failą
+Užkrauti iš failo
