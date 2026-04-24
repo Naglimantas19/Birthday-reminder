@@ -13,3 +13,8 @@ Tai Python programa, skirta priminti apie artėjančius gimtadienius.
 Vartotojas gali pridėti, pašalinti gimtadienius, peržiūrėti artėjančius įvykius ir gauti priminimus.
 Programa palaiko kelis vartotojus.
 
+# 2. Programos naudojimas
+## Kaip paleisti?
+
+```bash
+python main.py
