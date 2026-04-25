@@ -37,7 +37,7 @@ class User:
     def remove_birthday(self, person_name):
         return self._reminder_book.remove_birthday(person_name)
 
-    def get_upcoming_birthdays(self, current_date, days_ahead=7):
+    def get_upcoming_birthdays(self, current_date, days_ahead=365):
         return self._reminder_book.get_upcoming_birthdays(current_date, days_ahead)
 
     def to_dict(self):
