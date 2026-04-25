@@ -29,14 +29,14 @@ def demo():
     user1 = User("naglis", "naglis@email.com")
     user2 = User("anna", "anna@email.com")
 
-    user1.add_birthday("Jonas", "2000-04-10")
-    user1.add_birthday("Mantas", "1999-04-15")
+    user1.add_birthday("Jonas", "2000-05-07")
+    user1.add_birthday("Mantas", "1999-08-15")
     user2.add_birthday("Ema", "2001-04-10")
 
     manager.add_user(user1)
     manager.add_user(user2)
 
-    demo_date = date(2026, 4, 10)
+    demo_date = date.today()
 
     print("=== USERS AND UPCOMING BIRTHDAYS ===")
     print_user_birthdays(user1, demo_date)
