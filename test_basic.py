@@ -16,12 +16,12 @@ class TestBirthdayApp(unittest.TestCase):
 
     def test_add_birthday(self):
         user = User("test", "test@email.com")
-        user.add_birthday("Jonas", "2000-01-01")
+        user.add_birthday("Jonas", "2000-05-07")
         self.assertEqual(len(user._birthdays), 1)
 
     def test_remove_birthday(self):
         user = User("test", "test@email.com")
-        user.add_birthday("Jonas", "2000-01-01")
+        user.add_birthday("Jonas", "2000-05-07")
         user.remove_birthday("Jonas")
         self.assertEqual(len(user._birthdays), 0)
 
