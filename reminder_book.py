@@ -31,7 +31,7 @@ class ReminderBook:
                 return entry
         return None
 
-    def get_upcoming_birthdays(self, current_date, days_ahead=7):
+    def get_upcoming_birthdays(self, current_date, days_ahead=365):
         upcoming = []
 
         for entry in self._birthdays:
